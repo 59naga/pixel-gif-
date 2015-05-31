@@ -46,12 +46,11 @@ pixelGif.parse(file).then(function(images){
 
 # See
 * [pixel](https://github.com/59naga/pixel/)
+* [pixel-util](https://github.com/59naga/pixel-util/)
 * __pixel-gif__
 * [pixel-png](https://github.com/59naga/pixel-png/)
 * [pixel-jpg](https://github.com/59naga/pixel-jpg/)
 * [pixel-bmp](https://github.com/59naga/pixel-bmp/)
-
-* [pixel-util](https://github.com/59naga/pixel-util/)
 
 License
 ---
