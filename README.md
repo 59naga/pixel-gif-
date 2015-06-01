@@ -32,15 +32,15 @@ pixelGif.parse(file).then(function(images){
     var imageData= images[i++];
     if(imageData==null) return;
 
-    console.log(imageData.width, imageData.height, imageData.data.length);
+    console.log(imageData);
     nextImage();
   }
 
   nextImage();
 });
-// 73 73 21316
-// 73 73 21316
-// 73 73 21316
+// { width: 73, height: 73, x: 0, y: 0, has_local_palette: false, palette_offset: 13, data_offset: 818, data_length: 393, transparent_index: null, interlaced: false, delay: 1000, disposal: 0, data: <Uint8Array ..> }
+// { width: 73, height: 73, x: 0, y: 0, has_local_palette: false, palette_offset: 13, data_offset: 1229, data_length: 387, transparent_index: null, interlaced: false, delay: 900, disposal: 0, data: <Uint8Array ..>  }
+// { width: 73, height: 73, x: 0, y: 0, has_local_palette: false, palette_offset: 13, data_offset: 1634, data_length: 393, transparent_index: null, interlaced: false, delay: 800, disposal: 0, data: <Uint8Array ..>  }
 // ...
 ```
 
