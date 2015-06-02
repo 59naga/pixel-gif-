@@ -2,7 +2,7 @@
 
 [![Sauce Test Status][sauce-image]][sauce]
 
-> Parse GIF to ImageData in cross-platform.
+> Parse Gif to ImageData in cross-platform.
 
 ## Installation
 ```bash
@@ -10,7 +10,7 @@ $ npm install pixel-gif --save
 ```
 ```js
 var pixelGif= require('pixel-gif');
-console.log(pixelGif); //function
+console.log(pixelGif); //object
 ```
 
 # API
