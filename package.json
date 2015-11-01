@@ -1,6 +1,6 @@
 {
   "name": "pixel-gif",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse Gif to ImageData in cross-platform",
 
   "main": "lib",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "omggif": "^1.0.8",
-    "pixel-util": "^0.0.1"
+    "pixel-util": "^0.0.2"
   },
   "devDependencies": {
     "brfs": "^1.4.1",
