@@ -9,7 +9,7 @@ jasmine.DEFAULT_TIMEOUT_INTERVAL= 3000
 describe 'pixel-gif',->
   describe '.parse',->
     it 'animated',(done)->
-      file= fixture.path.animated.gif
+      file= fixture.animated.gif
 
       pixelGif.parse file
       .then (images)->
@@ -23,7 +23,7 @@ describe 'pixel-gif',->
         done()
 
     it 'static',(done)->
-      file= fixture.path.still.gif
+      file= fixture.still.gif
 
       pixelGif.parse file
       .then (images)->
